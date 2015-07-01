@@ -1,2 +1,2 @@
 # proactive-learning
-Proactive Learning for Everyday. A knowledge database
+Proactive Learning for everyday. A knowledge database
