@@ -1,12 +1,12 @@
-Proactive Learning
+PHP
 ==============================================
 
-Contenido:
+Bla bla
+
+Contents:
 
 .. toctree::
    :maxdepth: 2
-
-   php/index
 
 
 Indices and tables
