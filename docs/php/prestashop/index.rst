@@ -1,15 +1,11 @@
-PHP
+Prestashop
 ==============================================
-
-Bla bla
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
-   prestashop/index
-   
 
 Indices and tables
 ==================
