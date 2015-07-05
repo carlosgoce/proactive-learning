@@ -47,9 +47,9 @@ source_encoding = 'utf-8-sig'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Proactive Learning'
-copyright = '2015, Carlos González Goce'
-author = 'Carlos González Goce'
+project = u'Proactive Learning'
+copyright = u'2015, Carlos González Goce'
+author = u'Carlos González Goce'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
