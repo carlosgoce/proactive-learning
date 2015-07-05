@@ -9,7 +9,7 @@ Contents:
    :maxdepth: 2
 
    prestashop/index
-   
+
 
 Indices and tables
 ==================
