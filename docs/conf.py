@@ -353,3 +353,13 @@ epub_exclude_files = ['search.html']
 
 # If false, no index is generated.
 # epub_use_index = True
+
+# Custom configuration
+
+# Better PHP lexer including symfony api calls
+# More here https://github.com/fabpot/sphinx-php
+from sphinx.highlighting import lexers
+from pygments.lexers.web import PhpLexer
+
+lexers['php'] = PhpLexer(startinline=True)
+lexers['php-annotations'] = PhpLexer(startinline=True)
