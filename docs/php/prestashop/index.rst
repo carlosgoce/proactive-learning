@@ -12,6 +12,7 @@ Contents:
    context
    database
    helpers
+   internacionalizacion
    modules
    smarty
 

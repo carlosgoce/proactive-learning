@@ -1,12 +1,12 @@
-Context
-=======
+El objeto Context
+=================
 
 El objeto contexto es algo similar a un Service Container. Es un objeto que almacena otros objetos comunes,
 como cookies, el lenguaje actual, el usuario que ha iniciado sesión, servicios (smarty), etc.
 
 
-Obteniendo el objeto context
-############################
+Obteniendo una instancia del objeto
+###################################
 
 En controladores y módulos podemos acceder a él de esta forma:
 
@@ -37,3 +37,20 @@ Objetos disponibles
 :shop: El objeto Shop en la cual se encuentra el cliente
 :smarty: Nos permitirá asignar variables a smarty para mostrar después en la plantilla
 :mobile_detect: Nos dice si el visitante está en móvil o no. No es válido para la back office
+
+
+Métodos
+#########
+
+:doc:`internacionalizacion`
+
+**Añadir CSS y JS**
+    Podemos realizarlo con
+
+    .. code-block:: php
+
+      $this->context->controller->addJS($this->_path.'views/js/myjsfile.js');
+      $this->context->controller->addCSS($this->_path.'views/css/mycssfile.css');
+
+
+    Incluírlos así conlleva varias ventajas. Sólo se incluirán una vez, mejora el rendimiento fusionando css y js juntos.
