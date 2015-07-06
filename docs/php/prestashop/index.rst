@@ -18,6 +18,7 @@ Contents:
    frontcontroller
    modules
    objectmodels
+   security
    smarty
 
 
