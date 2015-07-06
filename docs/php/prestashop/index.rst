@@ -15,7 +15,9 @@ Contents:
    helpers
    hooks
    internacionalizacion
+   frontcontroller
    modules
+   objectmodels
    smarty
 
 
