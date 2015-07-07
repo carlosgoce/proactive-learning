@@ -24,3 +24,15 @@ los keyword *do* y *end*.
       club.asociar(persona)
       persona.socializar
     end
+
+
+Hay dos tipos de delimitaciones porque a veces es más
+natural utilizar uno u otro. Algo recurrente en ruby,
+proveer diferentes formas para hacer lo mismo.
+
+No obstante, la comunidad utiliza la siguiente convención:
+utilizar las llaves para bloques de una sóla línea,
+y do / end para bloques multilínea.
+
+WIP
+===

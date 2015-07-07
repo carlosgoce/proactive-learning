@@ -14,3 +14,10 @@ Libros
 +============================+=================+
 | Programming Ruby 1.9 & 2.0 | Dave Thomas     |
 +----------------------------+-----------------+
+
+
+Enlaces
+#######
+
+**Guía de estilo** de la comunidad para escribir código ruby:
+    https://github.com/alemohamad/ruby-style-guide/blob/master/README-esLA.md
