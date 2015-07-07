@@ -135,3 +135,18 @@ Desde la mencionada versión 1.5.3 podemos reescribir las URL para que queden as
 
 Nada que ver. Para personalizarlas debes ir a Preferencias -> SEO -> URLs -> Schema para ver las personalizaciones
 que puedes realizar. Debes tener también las Friendly Url's activadas.
+
+
+Estructura de la página
+-----------------------
+
+En todas las páginas el controlador llama a las plantillas header.tpl,
+footer.tpl, así como a la plantilla del cuerpo. La clas FrontendController
+es responsable de mostrar diferentes frontales en la página.
+
+En él se definen diferentes variables para smarty y se lanzan
+diversos hook: displayHeader, displayTop, displayLeftColumn, displayRightColumn,
+displayMobileHeader, displayFooter, actionFrontControllerSetMedia, DisplayOverridTemplate.
+
+Podemos enganchar cualquier plantilla a estos ganchos y hacer que nuestro
+contenido aparezca ahí de forma muy sencilla.
