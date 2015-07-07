@@ -9,6 +9,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   structure
    admincontroller
    context
    database
