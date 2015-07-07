@@ -21,12 +21,3 @@ Contents:
    objectmodels
    security
    smarty
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
