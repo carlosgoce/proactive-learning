@@ -67,6 +67,10 @@ $comentario->add();
 Validación
 ----------
 
+La lista completa de validaciones se puede consultar en el propio
+código fuente:
+https://github.com/pal/prestashop/blob/master/classes/Validate.php
+
 Cuidado. El comentario será validado antes de guardarse en cuyo caso lanzará excepciones que deberás capturar
 para mostrar el error correspondiente al usuario.
 
