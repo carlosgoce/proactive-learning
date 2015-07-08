@@ -11,4 +11,5 @@ Contents:
    :maxdepth: 3
 
    blocks
+   libs
    resources
