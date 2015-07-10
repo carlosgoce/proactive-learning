@@ -13,6 +13,12 @@ Contenido:
    pending
 
 
+
+Otros:
+
+- `RST Cheatsheet <http://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html#colored-boxes-note-seealso-todo-and-warnings>`_
+
+
 Indices y Tablas
 ==================
 
