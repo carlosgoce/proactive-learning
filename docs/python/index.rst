@@ -5,7 +5,7 @@ A no ser que se indique lo contrario la versión de Python
 es la 3
 
 
-Contents:
+Contenido:
 
 .. toctree::
    :maxdepth: 3
