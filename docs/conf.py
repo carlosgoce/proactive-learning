@@ -363,3 +363,8 @@ from pygments.lexers.web import PhpLexer
 
 lexers['php'] = PhpLexer(startinline=True)
 lexers['php-annotations'] = PhpLexer(startinline=True)
+
+
+# Add TO DO extension
+extensions.append('sphinx.ext.todo')
+todo_include_todos = True
