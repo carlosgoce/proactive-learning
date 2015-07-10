@@ -39,6 +39,9 @@ nos permite añadir contenido a una página de producto:
     }
 
 
+Los hook necesitan el id del módulo, por eso debemos "instalarlo". Y por eso debemos ponerlo después de
+la llamada al método padre install.
+
 Además, debes añadir el método hook{nombreDelHook} que se ejecutará
 cada vez que se lance el evento displayProductTabContent. Como es tipo
 display, lo habitual es que el hook devuelva un html.

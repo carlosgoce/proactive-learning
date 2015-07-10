@@ -21,3 +21,4 @@ Contents:
    objectmodels
    security
    smarty
+   debug
