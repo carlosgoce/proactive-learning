@@ -1,5 +1,5 @@
-Decorators
-==========
+Decoradores
+===========
 
 .. todo::  Falta añadir explicación y decorators básicos
 
