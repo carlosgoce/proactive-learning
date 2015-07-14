@@ -61,11 +61,25 @@ Ejemplo:
 Guardando en la base de datos con un ObjectModel
 ################################################
 
-$comentario = new MiModuloComentario();
-$comentario->nombre = 'Carlos';
-$comentario->producto = 25;
-$comentario->comentario = 'texto del comentario'
-$comentario->add();
+
+.. code-block:: php
+
+    $comentario = new MiModuloComentario();
+    $comentario->nombre = 'Carlos';
+    $comentario->producto = 25;
+    $comentario->comentario = 'texto del comentario'
+
+    # Nuevas instancias
+    $comentario->add();
+
+    # Actualizar
+    $comentario->update();
+
+    # Dejar que decida si es nuevo o actualizar
+    $comentario->save();
+
+    # Eliminar
+    $comentario->delete();
 
 
 .. warning:: Valores null serán convertidos a ":php:`0`" a no ser que se indique
