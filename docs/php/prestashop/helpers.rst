@@ -27,6 +27,10 @@ Funciones
     un segundo valor para definir el valor por defecto
 
 
+:php:`Tools::jsonEncode(array('clave' => 'valor'))`
+    Convierte un array asociativo en un json
+
+
 :php:`Configuration::updateValue('CLAVE', 'valor')`
     Guarda un valor en la configuración de prestashop. Si ya existe lo
     sobreescribirá.

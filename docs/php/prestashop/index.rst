@@ -19,6 +19,7 @@ Contents:
    frontcontroller
    modules
    objectmodels
+   ajax
    security
    smarty
    debug
