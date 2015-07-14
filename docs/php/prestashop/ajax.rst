@@ -52,3 +52,20 @@ Hecho esto podemos acceder helpers y otras herramientas de Prestashop, por ejemp
 podríamos imprimir un array como json así: :php:`echo Tools::jsonEncode($result);`
 
 Si queremos utilizar modelos de Prestashop simplemente debemos requerirlos.
+
+
+Usuarios
+########
+
+Si además queremos saber que usuario es el que ha iniciado sesión y otros datos
+debemos inicializar el fichero de esta forma:
+
+.. code-block:: php
+
+    global $cookie;
+
+    require_once(dirname(__FILE__).'../../../../config/config.inc.php');
+    require_once(dirname(__FILE__).'../../../../init.php');
+
+    $cookie = new Cookie('psAdmin');
+    $idEmployee = (int)$cookie->id_employee_logged;
