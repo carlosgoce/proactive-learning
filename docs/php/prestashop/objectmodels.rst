@@ -1,6 +1,10 @@
 Object Models
 =============
 
+.. role:: php(code)
+   :language: php
+
+
 Definición de un nuevo Object Model
 ###################################
 
@@ -62,6 +66,21 @@ $comentario->nombre = 'Carlos';
 $comentario->producto = 25;
 $comentario->comentario = 'texto del comentario'
 $comentario->add();
+
+
+.. warning:: Valores null serán convertidos a ":php:`0`" a no ser que se indique
+    lo contrario. Para ello el atributo en el modelo debe declararse como tipo
+    :php:`self::TYPE_NOTHING` y probablemente sea necesario sobreescribir el método
+    add del modelo por:
+
+    .. code-block:: php
+
+        public function add($autodate = true, $null_values = true)
+        {
+            return parent::add($autodate, $null_values);
+        }
+
+    es decir, forzando $null_values=true para permitir valores null.
 
 
 Validación
