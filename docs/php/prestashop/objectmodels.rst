@@ -127,4 +127,5 @@ Para mostrar la alerta al usuario el código prestashop en la plantilla sería:
     {/if}
 
 
-**No olvides incluír el fichero .php del ObjectModel en todos los lugares donde quieras utilizarlo.**
+.. seealso::
+    No olvides incluír el fichero .php del ObjectModel en todos los lugares donde quieras utilizarlo

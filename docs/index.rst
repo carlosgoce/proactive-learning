@@ -10,6 +10,7 @@ Contenido:
    php/index
    python/index
    ruby/index
+   sql/index
    pending
 
 
