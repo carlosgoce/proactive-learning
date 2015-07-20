@@ -22,4 +22,5 @@ Contents:
    ajax
    security
    smarty
+   cli
    debug
