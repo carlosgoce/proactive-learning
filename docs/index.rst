@@ -11,8 +11,8 @@ Contenido:
    python/index
    ruby/index
    sql/index
-   pending
-
+   swift/index
+   linux/index
 
 
 Otros:
