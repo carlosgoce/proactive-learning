@@ -8,4 +8,5 @@ Contents:
 
    snippets
    jquery/index
+   angular/index
    resources
