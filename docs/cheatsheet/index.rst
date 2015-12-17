@@ -7,3 +7,5 @@ Contenido:
    :maxdepth: 3
 
    intellij
+   iterm
+
