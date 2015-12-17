@@ -14,6 +14,7 @@ Contenido:
    swift/index
    linux/index
    git/index
+   psql/index
    cheatsheet/index
 
 Otros:
