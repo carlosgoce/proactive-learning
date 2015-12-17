@@ -1,7 +1,8 @@
 GIT
 ===
 
-Contenido:
+
+Contents:
 
 .. toctree::
    :maxdepth: 3

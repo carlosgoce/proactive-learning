@@ -14,7 +14,7 @@ Contenido:
    swift/index
    linux/index
    git/index
-
+   cheatsheet/index
 
 Otros:
 
