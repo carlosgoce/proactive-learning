@@ -15,6 +15,15 @@ IntelliJ idea
      ⇧⌘↑   Intercambiar línea con la superior
      ⇧⌘↓   Intercambiar línea con la inferior
      ⌃G     Crea cursores iguales al elemento seleccionado
+     ⌃H     Ver jerarquía
+     ⌘F12   Ver estructura del fichero actual
+     ⇧⌘    Buscar acción por nombre
+     ⌥⌘A   Añadir a stage fichero actual
+
+
+Otros:
+
+https://www.jetbrains.com/idea/help/keyboard-shortcuts-you-cannot-miss.html
 
 
 iTerm
