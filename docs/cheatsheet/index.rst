@@ -41,8 +41,6 @@ Google Chrome
 
 .. code-block:: shell
 
-     ⌥⌘     Pulsando con las flechas te mueves entre los paneles de la misma pestaña
-     ⌥⌘←   Pestaña anterior
-     ⌥⌘→    Pestaña posterior
+     ⌥⌘     Pulsando con las flechas te mueves entre pestañas
      ⌘1..8   Ir a la pestaña con ese número
      ⌘9      Ir a la última pestaña
