@@ -19,6 +19,8 @@ IntelliJ idea
      ⌘F12   Ver estructura del fichero actual
      ⇧⌘    Buscar acción por nombre
      ⌥⌘A   Añadir a stage fichero actual
+     ⌥↑    Aumenta selección incremental
+     ⌥↓    Reduce selección incremental
 
 
 Otros:
